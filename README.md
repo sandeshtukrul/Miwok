@@ -16,11 +16,6 @@ Miwok is an Android application designed to teach the basics of the Miwok langua
 - **MediaPlayer**: Handles audio playback for pronunciation.
 - **Custom ArrayAdapter**: Manages the display of lesson items.
 
-## Screenshots
-
-![Main Screen](screenshots/main_screen.png)
-![Lesson Screen](screenshots/lesson_screen.png)
-
 ## Installation
 
 1. Clone the repository
