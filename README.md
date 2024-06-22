@@ -11,7 +11,7 @@ Miwok is an Android application designed to teach the basics of the Miwok langua
 
 ## Technologies Used
 
-- **Java**: Core programming language used for Android development.
+- **Kotlin**: Written in Kotlin language.
 - **XML**: Used for designing the app's layout.
 - **MediaPlayer**: Handles audio playback for pronunciation.
 - **Custom ArrayAdapter**: Manages the display of lesson items.
