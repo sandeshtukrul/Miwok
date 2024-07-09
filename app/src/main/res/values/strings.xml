@@ -126,6 +126,11 @@
 
     <!-- Vocabulary phrase for "Come here." [CHAR LIMIT=20] -->
     <string name="phrase_come_here">Come here.</string>
+    <string name="label_miwok">Miwok</string>
+    <string name="tab_numbers">Numbers</string>
+    <string name="tab_family">Family</string>
+    <string name="tab_colors">Colors</string>
+    <string name="tab_phrases">Phrases</string>
 
 
 </resources>

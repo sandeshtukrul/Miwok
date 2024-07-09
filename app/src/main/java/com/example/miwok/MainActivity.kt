@@ -1,29 +1,24 @@
 package com.example.miwok
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import androidx.compose.ui.Modifier
+import com.example.miwok.ui.HomeScreen
+import com.example.miwok.ui.theme.MiwokTheme
 
-class MainActivity : AppCompatActivity() {
+
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        findViewById<TextView>(R.id.colors).setOnClickListener {
-            startActivity(Intent(this, Colors::class.java))
-        }
-
-        findViewById<TextView>(R.id.numbers).setOnClickListener {
-            startActivity(Intent(this, Numbers::class.java))
-        }
-
-        findViewById<TextView>(R.id.phrases).setOnClickListener {
-            startActivity(Intent(this, Phrases::class.java))
-        }
-
-        findViewById<TextView>(R.id.family).setOnClickListener {
-            startActivity(Intent(this, Family::class.java))
+        setContent {
+            MiwokTheme {
+                Surface(modifier = Modifier.fillMaxSize()) {
+                    HomeScreen()
+                }
+            }
         }
     }
 }
