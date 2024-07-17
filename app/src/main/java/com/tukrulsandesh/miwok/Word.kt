@@ -1,4 +1,4 @@
-package com.example.miwok
+package com.tukrulsandesh.miwok
 
 data class Word(
     val engTextId: Int,

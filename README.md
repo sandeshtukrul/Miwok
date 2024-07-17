@@ -2,6 +2,12 @@
 
 Miwok is an Android application designed to teach the basics of the Miwok language. The app features lessons in various categories such as numbers, family, colors, and phrases, with audio pronunciations using MediaPlayer.
 
+## Light Mode
+![Light Mode](assets/Miwok_Light_Mode.gif)
+
+## Dark Mode
+![Dark Mode](assets/Miwok_Dark_Mode.gif)
+
 ## Features
 
 - **Language Lessons**: Provides lessons in categories like numbers, family, colors, and phrases.

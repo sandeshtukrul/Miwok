@@ -1,4 +1,4 @@
-package com.example.miwok.ui.theme
+package com.tukrulsandesh.miwok.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

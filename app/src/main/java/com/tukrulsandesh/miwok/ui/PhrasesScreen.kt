@@ -1,10 +1,10 @@
-package com.example.miwok.ui
+package com.tukrulsandesh.miwok.ui
 
 import androidx.compose.runtime.Composable
-import com.example.miwok.R
-import com.example.miwok.R.string.*
-import com.example.miwok.Word
-import com.example.miwok.WordItemVariation
+import com.tukrulsandesh.miwok.R
+import com.tukrulsandesh.miwok.R.string.*
+import com.tukrulsandesh.miwok.Word
+import com.tukrulsandesh.miwok.WordItemVariation
 
 @Composable
 fun PhrasesScreen(){

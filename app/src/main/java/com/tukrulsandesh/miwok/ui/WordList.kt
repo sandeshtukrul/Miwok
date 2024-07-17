@@ -1,4 +1,4 @@
-package com.example.miwok.ui
+package com.tukrulsandesh.miwok.ui
 
 import android.content.Context
 import android.media.MediaPlayer
@@ -33,9 +33,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.miwok.R
-import com.example.miwok.Word
-import com.example.miwok.WordItemVariation
+import com.tukrulsandesh.miwok.R
+import com.tukrulsandesh.miwok.Word
+import com.tukrulsandesh.miwok.WordItemVariation
 
 @Composable
 fun WordList(item: WordItemVariation) {

@@ -1,4 +1,4 @@
-package com.example.miwok.ui
+package com.tukrulsandesh.miwok.ui
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Column
@@ -20,11 +20,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import com.example.miwok.R.string.label_miwok
-import com.example.miwok.R.string.tab_colors
-import com.example.miwok.R.string.tab_family
-import com.example.miwok.R.string.tab_numbers
-import com.example.miwok.R.string.tab_phrases
+import com.tukrulsandesh.miwok.R.string.label_miwok
+import com.tukrulsandesh.miwok.R.string.tab_colors
+import com.tukrulsandesh.miwok.R.string.tab_family
+import com.tukrulsandesh.miwok.R.string.tab_numbers
+import com.tukrulsandesh.miwok.R.string.tab_phrases
 import kotlinx.coroutines.launch
 
 @Composable
