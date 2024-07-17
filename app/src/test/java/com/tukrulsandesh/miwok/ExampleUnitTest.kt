@@ -1,4 +1,4 @@
-package com.example.miwok
+package com.tukrulsandesh.miwok
 
 import org.junit.Assert
 import org.junit.Test
